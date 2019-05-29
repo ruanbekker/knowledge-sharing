@@ -1,6 +1,8 @@
 ## Snapshots
 
-:question: | Definition of an Amazon Elasticsearch Snapshot:
+:question: | 
+
+#### Definition of an Amazon Elasticsearch Snapshot:
 
 :white_check_mark: | Snapshots are backups of a cluster's data and state. State includes cluster settings, node information, index settings, and shard allocation. 
 
