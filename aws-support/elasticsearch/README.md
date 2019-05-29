@@ -1,10 +1,10 @@
 ## Snapshots
 
-:question: | 
+
 
 #### Definition of an Amazon Elasticsearch Snapshot:
 
-:white_check_mark: | Snapshots are backups of a cluster's data and state. State includes cluster settings, node information, index settings, and shard allocation. 
+`>` Snapshots are backups of a cluster's data and state. State includes cluster settings, node information, index settings, and shard allocation. 
 
 Q) A snapshot `snapshot_weekly` on 2019.05.19 made a 1TB snapshot (let's say this ran 6 hours after the daily snapshot `snapshot_daily` ran with the total size of 1.1TB), will this snapshot also be an incremental one from the daily, so only snapshotted the extra 6 hours after the daily one, and then just keep the metadata of daily vs monthly
 
